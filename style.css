@@ -47,8 +47,8 @@ main{
     border-radius: 10px;
 }
 .top-players:hover{
-    border: 3px solid rebeccapurple;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.07);
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
     
 }
 hr{
@@ -89,6 +89,11 @@ hr{
 /*-----------------
  Top blogs styles 
  --------------*/
+ .top-blogs:hover{
+     transform: scale(1.09);
+     transition: transform 3s;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
  .blogs{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
