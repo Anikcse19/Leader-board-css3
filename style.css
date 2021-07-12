@@ -42,10 +42,14 @@ main{
 .container{
     background-color: #FFFFFF;
     width: 870px;
-
     padding: 30px ;
     margin-top: 21px;
     border-radius: 10px;
+}
+.top-players:hover{
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -97,6 +101,11 @@ hr{
      width:117px;
      height: 117px;
  }
+ img:hover{
+     transform: scale(1.2);
+     transition: width 2s, height 2s, background-color 2s, transform 2s;
+     overflow: hidden;
+ }
  .blog-info{
      padding-left: 16px;
 
@@ -118,6 +127,9 @@ hr{
      display: grid;
      grid-template-columns: repeat(3,1fr);
      grid-column-gap: 15px;
+ }
+ .courses:hover{
+    box-shadow: 0 4px 8px 0 rgba(233, 62, 62, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
  .course{
      width: 240px;
