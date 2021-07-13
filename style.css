@@ -22,6 +22,7 @@ nav{
    
     margin-bottom: 10px;
     margin-right: 290px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -29,9 +30,13 @@ nav{
 nav a{
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
-    margin-right: 10px;
-    
+    margin-right: 10px;   
+}
+.left-nav a{
+    font-size: 24px;
+}
+.right-nav a{
+    font-size: 16px;
 }
 main{
     display: flex;
@@ -181,6 +186,10 @@ hr{
          flex-direction: column;
         justify-content: center;
      }
+     .blog{
+         align-items: center;
+
+     }
      .blogs{
         
             grid-template-columns: repeat(1,1fr);
@@ -188,8 +197,32 @@ hr{
      }
      .courses{
         grid-template-columns: repeat(1,1fr);
-        align-items: center;
+        
      }    
+     .course{
+        margin-left: 15%;
+        align-items: center;
+     }
+     nav{
+         width: 100%;
+     }
+     .left-nav{
+         
+         margin-left: 2%;
+         padding-left: 10px;
+         padding-top: 5px;
+     }
+     .left-nav a{
+         font-size: 16px;
+     }
+     .right-nav{
+         padding-right: 5px;
+         padding-top: 10px;
+         margin-right: 0%;
+     }
+     .right-nav a{
+         font-size: 12px;
+     }
  }
 
  /* Tablet devices --
@@ -204,6 +237,18 @@ hr{
     .blogs{
         grid-template-columns: repeat(1,1fr);
     }
+     .left-nav{
+         margin-left: 5%;
+     }
+     .left-nav a{
+         font-size: 24px;
+     }
+     .right-nav{
+         margin-right: 6%;
+     }
+     .right-nav a{
+         font-size: 16px;
+     }
         
 }
 
