@@ -205,6 +205,7 @@ hr{
      }
      nav{
          width: 100%;
+         margin: auto;
      }
      .left-nav{
          
@@ -236,6 +237,9 @@ hr{
         }
     .blogs{
         grid-template-columns: repeat(1,1fr);
+    }
+    nav{
+        width: 100%;
     }
      .left-nav{
          margin-left: 5%;
