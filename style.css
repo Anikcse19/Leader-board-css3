@@ -176,7 +176,7 @@ hr{
 }
 /* Media queries------------ */
 /* for mobile device-------- */
- @media only screen and (max-width:688px) {
+ @media only screen and (max-width:680px) {
      .container{
          width: 100%;
      }
