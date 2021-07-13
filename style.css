@@ -178,8 +178,8 @@ hr{
 /* for mobile device-------- */
  @media only screen and (max-width:688px) {
      .container{
-         width: 100%;
-         margin: auto;
+         width: 395px;
+         
      }
      .players{
          grid-template-columns: repeat(1,1fr);
@@ -207,9 +207,9 @@ hr{
         align-items: center;
      }
      nav{
-         width: 400px;
-         margin-right: auto;
-     }
+         width: 432px;
+         
+         }
      .left-nav{
          
          margin-left: 2%;
